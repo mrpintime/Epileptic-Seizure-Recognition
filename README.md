@@ -52,7 +52,7 @@ Our objective is to classify these EEG recordings to aid in the detection and pr
 
 1. **Statistical Features:** From each 1-second chunk of data, we extracted statistical features like mean, median, standard deviation, and skewness. These features provide a basic understanding of the distribution and variability of the EEG signals.
 
-4. **Correlation:** We Extract Pearson correlation Coeffitient for each pair of features. These features provide a basic understanding of the relation of features based of variation.
+2. **Correlation:** We Extract Pearson correlation Coeffitient for each pair of features. These features provide a basic understanding of the relation of features based of variation.
 > **Future apprache**:   
     1.**PCA:** Given the high dimensional dataset that we have and multicollinearity that we have we can use PCA to decrease dimension of our dataset to make the comlexity of our dataset much less.  
     2.**Clustering:** We can use advantagous of Clustering algorithms like: Kmeans, Meanshift, DBScan... to identify potential clusters in our dataset and also potential noises
